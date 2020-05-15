@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+	margin: 0 auto 0 auto;
+	max-width: 680px;
+}
+main .container {
+	display: flex;
+	flex-flow: row;
+}
+
+.header-inner {
+	padding: 10px 10px 0 10px;
+}
+
+h1{
+    margin: 0;
+    padding: 8px 10px 5px;
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(29, 72, 110);
+}
+
+.header-inner p{
+    padding: 0px 5px 0px;
+}
+
+.bar{
+    padding: 0px 5px 0px;
+    width: 50%;
+}
+
+h2{
+    margin: 0;
+    padding: 3px 10px 0;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: rgb(60, 96, 126);
+}
+
+ul{
+    padding-left: 10px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li:before{
+    content: "■";
+}
+
+.open-box h3{
+    padding: 3px 10px 0px;
+    border: 1px solid #223152;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    border-bottom: 1px solid #223152;
+    text-align: left;
+    font-weight: normal;
+}
+td{
+    text-align: right;
+}
+
+.item-box{
+    margin-bottom: 10px;
+    border: 1px solid #223152;
+}
+
+.item-box h3{
+    margin: 0;
+    padding: 3px 10px 0px;
+    color: #ffffff;
+    background-color: rgb(102, 134, 161);
+}
+
+.item-box p{
+    padding: 0 10px 0;
+}
+
+.item-box-table{
+    padding: 0 10px 10px;
+}
+
+.tag{
+    border-collapse: collapse;
+}
+
+.tag th, .tag td{
+    border: 1px solid #223152;
+    text-align: center;
+}
+
+.tag th{
+    background-color: rgb(250, 235, 198);
+}
+
+.footer-inner {
+    padding: 5px 5px 5px;
+}
+
+.copyright {
+    margin: 0;
+    padding: 5px 10px 5px;
+    background-color: rgb(199, 215, 228);
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>紙テスト_福山沙耶香</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-inner">
+                <h1>HTMLの基礎</h1>
+                <p>ここでは、XHTML文書の基本を学びます。</p>
+            </div><!-- /.header-inner -->
+        </div><!-- /.container -->
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="bar">
+                    <h2>XHTMLタグ</h2>
+                    <ul>
+                        <li>ブロックレベル要素</li>
+                        <li>インラインレベル要素</li>
+                    </ul>
+                    <div class="open-box">
+                    <h3>ブロックレベル要素</h3>
+                    <p>ひとつの文章のかたまりを表す要素で、通常前後で改行されます。</p>
+                    <table>
+                        <tr><th>見出し</th></tr>
+                        <tr><td>h1～h6</td></tr>
+                        <tr><th>段落</th></tr>
+                        <tr><td>p</td></tr>
+                        <tr><th>順序のない箇条書き</th></tr>
+                        <tr><td>ul+li</td></tr>
+                        <tr><th>順序のある箇条書き</th></tr>
+                        <tr><td>ol+li</td></tr>
+                        <tr><th>定義リスト</th></tr>
+                        <tr><td>dl+dt+dd</td></tr>
+                        <tr><th>連絡先</th></tr>
+                        <tr><td>adress</td></tr>
+                        <tr><th>フォーム</th></tr>
+                        <tr><td>form</td></tr>
+                        <tr><th>表</th></tr>
+                        <tr><td>table</td></tr>
+                        <tr><th>範囲</th></tr>
+                        <tr><td>div</td></tr>
+                    </table>
+                    <h3>インラインレベル要素</h3>
+                    <p>文章の一部分を表す要素です。（通常は前後で改行されません）</p>
+                    <table>
+                        <tr><th>強調</th></tr>
+                        <tr><td>em</td></tr>
+                        <tr><th>より強調</th></tr>
+                        <tr><td>strong</td></tr>
+                        <tr><th>リンク</th></tr>
+                        <tr><td>a</td></tr>
+                        <tr><th>範囲</th></tr>
+                        <tr><td>span</td></tr>
+                        <tr><th>画像挿入</th></tr>
+                        <tr><td>img</td></tr>
+                    </table>
+                    </div><!-- /.open-box -->
+            </div><!-- /.bar -->
+            <div class="bar">
+                    <h2>ハイパーリンク</h2>
+                    <ul>
+                        <li>サイト内リンク</li>
+                        <li>外部リンク</li>
+                        <li>ページ内リンク</li>
+                    </ul>
+                    <div class="item-box">
+                        <h3>サイト内リンク</h3>
+                        <p>サイト内でのページ移動は、通常相対パスを使ってリンクします。</p>
+                        <div class="item-box-table">
+                            <table>
+                                <tr><th>同じフォルダ内のファイルを参照</th></tr>
+                                <tr><td>ファイル名</td></tr>
+                                <tr><th>フォルダ内のファイルを参照</th></tr>
+                                <tr><td>フォルダ名/ファイル名</td></tr>
+                                <tr><th>上の階層のフォルダ内にあるファイルを参照</th></tr>
+                                <tr><td>../フォルダ名/ファイル名</td></tr>
+                            </table>
+                        </div><!-- /.item-box-table -->
+                    </div><!-- /.item-box -->
+                    <div class="item-box">
+                        <h3>外部リンク</h3>
+                        <p>外部サイトへのページ移動は、http://から始まる絶対パスを使ってリンクします。</p>
+                        <div class="item-box-table">
+                            <table>
+                                <tr><th>トップページ</th></tr>
+                                <tr><td><u>ドメイン名を指定</u></td></tr>
+                                <tr><th>各ページ</th></tr>
+                                <tr><td><u>ドメイン名/ファイル名</u></td></tr>
+                            </table>
+                        </div><!-- /.item-box-table -->
+                    </div><!-- /.item-box --> 
+                    <div class="item-box">
+                        <h3>ページ内リンク</h3>
+                        <p>ページ内での移動は、ページ内のidに#でリンクします。</p>
+                        <div class="item-box-table">
+                            <table>
+                                <tr><th>ページ内移動</th></tr>
+                                <tr><td><u>ページトップへ</u></td></tr>
+                            </table>
+                        </div><!-- /.item-box-table -->
+                    </div><!-- /.item-box --> 
+                    <h2>要素と属性</h2>
+                    <ul>
+                        <li>要素</li>
+                        <li>属性</li>
+                    </ul>
+                    <div class="open-box">
+                    <h3>要素</h3>
+                    <p>タグの名前を指します。</p>
+                    <h3>属性</h3>
+                    <p>開始タグ中に、タグを補足する要素として以下の形式で記述します。
+                        <br>
+                        &lt;img src="imag.jpg" width="100" height="50" alt="代替文字"&gt;
+                    </p>
+                    </div><!-- /.open-box -->
+                    <h2>補足</h2>
+                    <div class="open-box">
+                    <h3>単独タグ</h3>
+                    <p>終了タグのないタグ（meta,br,imgなど）を単独タグ、または空タグと呼びます。
+                        HTML4まではタグの最後に/を入れていましたが、HTKM5になってからは/も不要になりました。</p>
+                        <table class="tag">
+                            <tr>
+                                <th scope="col">HTML4まで</th>
+                                <th scope="col">HTML5以降</th>
+                            </tr>
+                            <tr>
+                                <td>&lt;meta /&gt;</td>
+                                <td>&lt;meta&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;br /&gt;</td>
+                                <td>&lt;br&gt;</td>
+                            </tr>
+                            <tr>
+                                <td>&lt;img src="" /&gt;</td>
+                                <td>&lt;img src=""&gt;</td>
+                            </tr>
+                        </table>
+                    <h3>コメント</h3>
+                    <p>HTML文章内にブラウザには表示されないコメントを記述できます。書式は以下の通り。
+                        <br>
+                        &lt;!-- 注意書き--&gt;
+                    </p>
+                    <h3>コーディングの手順</h3>
+                    <ol>
+                        <li>HTML文章構成タグのマークアップ</li>
+                        <li>divタグによるセレクション付け</li>
+                        <li>CSSの設定</li>
+                    </ol>
+                    </div><!-- /.open-box -->
+            </div><!-- /.bar -->
+        </div><!-- /.container -->
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-inner">
+                <p class="copyright">©2019 All right reserved</p>
+            </div><!-- /.footer-inner -->
+        </div><!-- /.container -->
+    </footer>
+</body>
+</html>
